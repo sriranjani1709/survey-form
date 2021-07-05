@@ -1,0 +1,45 @@
+.form-row{
+    width:50%;
+    padding: 1%;
+}
+
+.mailbox{
+    width:43.5%;
+    padding-bottom: 1%;
+}
+.star{
+    padding: 1%;
+    padding-top: 0 !important;
+    justify-content: left;
+    margin-left: 20px;
+    display: flex;
+}
+.container{
+    margin-left: 0 !important;
+
+}
+#Bottom{
+    padding:1% ;
+    width:50%;
+
+}
+.btn{
+    margin-top: 10px;
+}
+.grey{
+    background-color: #EDEDED;
+}
+.ralign{
+    text-align: center;
+    
+}
+.satisfied1{
+    margin-left: 1px;
+}
+.last{
+    margin-top: 30px;
+}
+.overall{
+    padding:1%;
+}
+

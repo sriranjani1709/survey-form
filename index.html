@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey_Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <form>
+        
+        <div class="form-row">
+          <div class="col namebox">
+            <figure class="figure ">
+            <h5>Name <span class="starred" style="color: red;">*</span></h5>
+            <input type="text" class="form-control " placeholder="First name">
+            <figcaption class="figure-caption">First</figcaption>
+          </figure>
+            </div>
+          
+          <div class="col namebox">
+            <div class="figure ">
+
+            <input type="text" class="form-control last" placeholder="Last name">
+            <figcaption class="figure-caption">Last</figcaption> 
+            </figure>
+          </div>
+        </div>
+    </div>
+      </form>
+
+      <form>
+        <div class="form-row mailbox">
+            <div class="col">
+              
+              <h5>Email <span class="starred" style="color: red;">*</span></h5>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your email">
+        
+              </div>
+              </div>
+      </form>
+
+      
+      <section id="your_experience">
+
+          <div class="container">
+              <div class=" experience">
+                <h5>Your Experience <span class="starred" style="color: red;">*</span></h5>
+              </div>
+
+              <div class="row star">
+                  <h6>⭐</h6>
+                  <h6>⭐</h6>
+                  <h6>⭐</h6>
+                  <h6>⭐</h6>
+                  <h6>⭐</h6>
+              </div>
+          </div>
+          <div class="overall">
+              <p>Overall,how would you rate you experience with us?</p>
+          </div>
+          <div class="overall">
+              <h6 class="satisfied1">How satisfied are you with <span class="starred" style="color:red;">*</span></h6>
+          </div>
+      
+    </section>
+
+    <section id="middle">
+
+        <table class="table" >
+            <thead>
+                <tr> 
+                    <th></th>
+                    <th class="ralign">Very Unsatisfied</th>
+                    <th class="ralign">Unsatisfied</th>
+                    <th class="ralign">Neutral</th>
+                    <th class="ralign">satisfied</th>
+                    <th class="ralign">very satisfied</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="grey">
+                    <td>purchase</td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                </tr>
+                <tr>
+                    <td>Service</td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+
+                </tr>
+                <tr class="grey">
+                    <td>Company Overall</td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="likely">
+            <h6>How likely are you to<span class="starred" style="color:red;">*</span></h6>
+        </div>
+    </section>
+    <section class="middle2">
+        <table class="table " >
+            <thead>
+                <tr> 
+                    <th></th>
+                    <th class="ralign">Very Unlikely</th>
+                    <th class="ralign">Unlikely</th>
+                    <th class="ralign">Neutral</th>
+                    <th class="ralign">Likely</th>
+                    <th class="ralign">very Likely</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="grey">
+                    <td>Buy from us again</td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                </tr>
+                <tr>
+                    <td>Recommend our<br>product to others</td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+
+                </tr>
+                <tr class="grey">
+                    <td>Recommend our <br>company to others</td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                    <td class="ralign"><input type="radio" value=""></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <section id="Bottom">
+        <div class="comments">
+            <h6>Additional comments or suggestions</h6>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn ">Submit</button>
+
+    </section>
+</body>
+</html>
